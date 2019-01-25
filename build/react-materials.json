@@ -1,0 +1,87 @@
+{
+  "name": "react-materials",
+  "type": "react",
+  "blocks": [
+    {
+      "name": "ice-saber-table",
+      "title": "ice saber table",
+      "source": {
+        "type": "npm",
+        "npm": "ice-saber-table-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "react": "^16.2.0",
+        "prop-types": "^15.5.8"
+      },
+      "categories": [
+        "信息展示"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "这是一个测试",
+      "publishTime": "2018-12-10T10:06:34.656Z",
+      "updateTime": "2018-12-10T10:06:38.670Z"
+    }
+  ],
+  "layouts": [
+    {
+      "name": "example-layout",
+      "title": "示例区块",
+      "source": {
+        "type": "npm",
+        "npm": "example-layout",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "react": "^16.2.0",
+        "prop-types": "^15.5.8"
+      },
+      "categories": [
+        "其他"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "publishTime": "2018-04-16T09:38:21.481Z",
+      "updateTime": "2018-04-16T09:38:24.246Z"
+    }
+  ],
+  "scaffolds": [
+    {
+      "name": "ice-app",
+      "title": "示例模板",
+      "source": {
+        "type": "npm",
+        "npm": "ice-app",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com"
+      },
+      "dependencies": {
+        "@icedesign/base": "^0.2.0",
+        "@icedesign/skin": "^0.1.0",
+        "prop-types": "^15.5.8",
+        "react-router": "^3.2.0"
+      },
+      "devDependencies": {
+        "babel-eslint": "^8.0.3",
+        "eslint": "^4.13.1",
+        "eslint-config-airbnb": "^16.1.0",
+        "eslint-plugin-babel": "^4.1.1",
+        "eslint-plugin-import": "^2.8.0",
+        "eslint-plugin-jsx-a11y": "^6.0.3",
+        "eslint-plugin-react": "^7.5.1",
+        "ice-scripts": "^1.1.1"
+      },
+      "categories": [],
+      "features": {},
+      "publishTime": "2018-08-30T09:21:19.146Z",
+      "updateTime": "2018-08-30T09:21:24.188Z"
+    }
+  ]
+}

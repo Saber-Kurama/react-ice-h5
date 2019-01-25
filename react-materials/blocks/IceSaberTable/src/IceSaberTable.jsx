@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-export default class ExampleBlock extends Component {
-  static displayName = 'ExampleBlock';
+export default class IceSaberTable extends Component {
+  static displayName = 'IceSaberTable';
 
   static propTypes = {
     value: PropTypes.string
@@ -22,7 +22,7 @@ export default class ExampleBlock extends Component {
   render() {
     return (
       <div>
-        example-block
+        ice-saber-table
       </div>
     );
   }
